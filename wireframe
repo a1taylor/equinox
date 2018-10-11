@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial scale=1">
+<meta charset="utf-8">
+<title>Equinox</title>
+<link rel="stylesheet" type="text/css" href="newe.css">
+<link rel="icon" type="image/vnd.microsoft.icon" href="equinoxicon">
+</head>
+
+<body>
+<div class="topnav">
+	<a href="#top">equinox gym & spa</a>
+</div>
+<div class="col_12 header">
+	<h1 class="title">equinox</h1>
+</div>
+<div class="col_12 motto">
+	<p>the gym for your well-being</p>
+</div>
+<div class="col_2 navg">
+	<ul>
+		<li><a href="#home">home</a>
+		<li><a href="#locations">locations</a>
+		<li><a href="#hours">hours</a>
+		<li><a href="#classes">classes</a>
+		<li><a href="#contact">contact</a>
+	</ul>
+	<p class="subtitle">
+		published september 2018
+	</p>
+</div>
+<div class="col_10 main">
+<div class="col_12 home" id="home">
+	<h2>
+		home
+	</h2>
+	<p>
+		hi, welcome to equinox! we're a modern gym & spa based in the bay area made just for you. we provide top-tier services and have olympics-certified facilities open for member use. please come visit at one of our three grand locations!
+	</p>
+</div>
+<div class="col_12 locations" id="locations">
+<div class="col_4 alameda">
+	<h2>alameda</h2>
+	<p class="subtitle">1456 The Alameda Road<br>
+	Menlo Park, CA 94025</p>
+</div>
+<div class="col_4 woodside">
+	<h2>woodside</h2>
+	<p class="subtitle">998 Woodside Road<br>
+	Redwood City, CA 95057</p>
+</div>
+<div class="col_4 university">
+	<h2>university</h2>
+	<p class="subtitle">355811 University Avenue<br>
+	Palo Alto, CA 93036</p>
+</div>
+</div>
+<div class="col_12 locationimg">
+<div class="col_4 alamedaimg">
+<img src="Alameda.jpeg" alt="Alameda" height=150% width=100%>
+</div>
+<div class="col_4 woodsideimg">
+<img src="Woodside.jpeg" alt="Woodside" height=150% width=100%>
+</div>
+<div class="col_4 universityimg">
+<img src="University.jpeg" alt="university" height=150% width=100%>
+</div>
+</div>
+<div class="col_12 hours" id="hours">
+<h2>hours</h2>
+	<table>
+		<tr>
+		<th></th>
+		<th>Mon</th>
+		<th>Tue</th>
+		<th>Wed</th>
+		<th>Thu</th>
+		<th>Fri</th>
+		<th>Sat</th>
+		<th>Sun</th>
+	</tr>
+	<tr>
+		<td class="oc">Opens</td>
+		<td>5 am</td>
+		<td>5 am</td>
+		<td>5 am</td>
+		<td>5 am</td>
+		<td>6 am</td>
+		<td>7 am</td>
+		<td>7 am</td>
+	</tr>
+	<tr>
+		<td class="oc">Closes</td>
+		<td>9 pm</td>
+		<td>9 pm</td>
+		<td>9 pm</td>
+		<td>10 pm</td>
+		<td>10 pm</td>
+		<td>8 pm</td>
+		<td>8 pm</td>
+	</tr>
+</table>
+</div>
+<div class="col_12 classes" id="classes">
+	<div class="col_9 cardioburndesc"
+	<h3>Cardio <em>Burn!</em></h3>
+		<p>Join our Cardio Burn intense workout session with Jason! We will do jump rope, running, rowing and more. It's hard, but fun! Taught in the evening most days.
+		</p>
+		<button>Interested?</button>
+	</div>
+	<div class="col_3 cardioburnpic">
+	</div>
+</div>
+
+
+</div>
+<div class="col_12 footer">
+	<div class="col_6 leftfoot">
+		<p>published september 2018<br>
+		all rights reserved.</p>
+	</div>
+	<div class="col_6 rightfoot">
+		<p>contact:<br>
+		info@equinoxfitness.com<br>
+		(650)-204-4599<br>
+		998 Woodside Road<br>
+		Redwood City, CA<br>
+		95057
+		</p>
+</body>
+</html>
