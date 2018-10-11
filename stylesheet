@@ -1,0 +1,144 @@
+* {
+	box-sizing: border-box;
+	}
+.clearfix {
+	overflow: auto;
+	}
+@font-face {
+	font-family: kotori;
+	src: url("KotoriRose-Regular.otf");
+	}
+@font-face {
+	font-family: kotori;
+	src: url("KotoriRose-Bold.otf");
+	font-weight: bold;
+	}
+[class*="col_"] {
+	float: left;
+	padding: 4px;
+	border: 1px solid pink;
+	width: 100%;
+	}
+@media only screen and (min-width: 600px) {
+.col_1 {width: 8.33%;}
+.col_2 {width: 16.66%;}
+.col_3 {width: 25%;}
+.col_4 {width: 33.33%;}
+.col_5 {width: 41.66%;}
+.col_6 {width: 50%;}
+.col_7 {width: 58.33%;}
+.col_8 {width: 66.66%;}
+.col_9 {width: 75%;}
+.col_10 {width: 83.33%;}
+.col_11 {width: 91.66%;}
+.col_12 {width: 100%;}
+	}
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+	}
+html {
+	font-family: kotori;
+	}
+body {
+	margin: 0px;
+	}
+.topnav {
+	background-color: #9dc6c5;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+	}
+.topnav a {
+	color: white;
+	padding: 16px 14px;
+	text-decoration: none;
+	float: left;
+	font-size: 1em;
+	text-align: center;
+	}
+.topnav a:hover {
+	background-color: #d5efef;
+	color: dimgray;
+	}
+.header {
+	background-image: url(river.jpg);
+	background-size: cover;
+	color: slate;
+	padding: 15%;
+	text-align: center;
+	color: white;
+	}
+.title {
+	font-size: 4em;
+	color: white;
+	}
+.motto {
+	background-color: #edf7f6;
+	padding: 0px;
+	}
+.motto p {
+	color: dimgrey;
+	text-align: center;
+	text-decoration: none;
+	}
+.navg ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	}
+.navg li {
+	padding: 15px 8px;
+	margin-bottom: 8px;
+	background-color: #edf7f6;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.15), 0 2px 3px rgba(0,0,0,0.28);
+	}
+.navg a {
+	color: dimgrey;
+	text-decoration: none;
+	font-size: 1.2em;
+	}
+.navg li:hover {
+	background-color: white;
+	}
+.main p {
+	font-size: 1.1em;
+	}
+.subtitle {
+	color: gray;
+	}
+h1 {
+	color: dimgrey;
+	}
+img {
+	align= center;
+	}
+.blank {
+	height=1000px;
+	}
+table{
+	border: none;
+	border-collapse: collapse;
+	table-layout: auto;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;}
+th, td {
+	padding: 10px 0px;
+	text-align: center;
+	font-size: 1em;}
+th{
+	background-color: #edf7f6;
+	color: dimgrey;
+	}
+.main {
+	display: flex;
+	flex-direction: column;
+	}
+.footer {
+	background-color: dimgray;
+	color: darkgrey;
+	text-align: center;
+	}
